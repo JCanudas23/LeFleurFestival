@@ -1,0 +1,32 @@
+// VARIABLES //
+@import "./partials/variables/variables";
+
+// RESET //
+@import "./partials/base/reset";
+
+// TYPO - MAIN Y BODY //
+@import "./partials/typo/typo";
+
+// HEADER //
+@import "./partials/layout/header";
+
+// INDEX HTML //
+@import "./partials/vistas/index";
+
+// INFO HTML //
+@import "./partials/vistas/info";
+
+// LINEUP HTML //
+@import "./partials/vistas/lineup";
+
+// SPONSORS HTML //
+@import "./partials/vistas/sponsors";
+
+// TICKETS HTML //
+@import "./partials/vistas/tickets";
+
+// FOOTER //
+@import "./partials/layout/footer";
+
+// MEDIA QUERYS //
+@import "./partials/medias/mediaQueries";

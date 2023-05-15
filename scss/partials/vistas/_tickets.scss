@@ -1,0 +1,88 @@
+.main-tickets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seccion1-tickets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;   
+
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    
+}
+
+.tickets-grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "t-uno  t-dos"
+        "t-tres  t-cuatro"
+    ;
+}
+
+.t-uno{
+    text-align: center;
+    justify-content: center;
+    grid-area: t-uno;
+}
+.t-dos{
+    text-align: center;
+    justify-content: center;
+    grid-area: t-dos;
+}
+.t-tres{
+    text-align: center;
+    justify-content: center;
+    grid-area: t-tres;
+}
+.t-cuatro{
+    text-align: center;
+    justify-content: center;
+    grid-area: t-cuatro;
+}
+
+.box-tickets{
+    background-image: url("../img/fondo-tickets.jpeg");
+    background-size: cover;
+    border: 3px solid $gray;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+    text-align: center;  
+    width: 100%;
+    height: 50%;
+    color: $black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 
+    2px 2px 0px $white, 
+    -2px -2px 0px $white, 
+    2px -2px 0px $white, 
+    -2px 2px 0px $white;
+
+    &:hover{
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+        color: $chocolate;
+    }
+    
+}

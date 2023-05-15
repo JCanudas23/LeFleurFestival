@@ -1,0 +1,38 @@
+header{
+    width: 100%;
+    margin: 0%;
+}
+.logo{
+    width: 60%;
+    justify-content: flex-start;
+}
+
+.fechas{
+    font-size: 12px;
+    justify-content: flex-end;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+
+    &.navbar-text {
+    display: flex;
+    align-items: center;
+    color: $white;
+    font-size: 1.2rem;
+    margin-left: auto;
+    }
+    
+    & li a{
+        font-size: 14px;
+    }
+}
+
+.menu{
+    text-decoration: none;
+    color: $white;
+    font-size: 20px;
+}

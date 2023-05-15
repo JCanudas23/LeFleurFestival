@@ -1,0 +1,116 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;   
+    margin-top: 10px;
+    padding: 10px;
+    background-color: $black;
+    color: $white;    
+    width: 100%;
+}
+
+.newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 ;
+    color: $white;
+
+    &.titulo-newsletter{
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px;
+        color: $white;
+    }
+
+    &.parrafo-newsletter{
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: $white;
+    }
+
+    &.fin-newsletter{
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        color: $white;
+    }
+
+    &.suscripcion-newsletter{
+        text-align: center;
+        padding: 5px;
+        margin: 15px;
+    
+
+        & input{
+            border-radius: 5px;
+            width: 35%;
+            color: $white;
+        }
+
+        & button{
+            border-radius: 5px;
+            background-color: $white;
+            width: 35%;
+        }
+    }
+}
+
+.links-footer{
+    display: none;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: $white;
+}
+
+.festival-footer{
+    padding: 35px 100px 0px 35px;
+    margin-left: 10px;
+    color: $white;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.ayuda-footer{
+    padding: 35px 50px  0px 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: $white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.social-footer{
+    padding: 35px 35px 0px 100px;
+    margin-right: 10px;
+    color: $white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lista-footer{
+    text-decoration: none;
+    color: $white;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    font-size: 12px;
+    justify-content: center;
+    margin-bottom: 15px;
+    opacity: 0.50;
+    color: $white;
+}
