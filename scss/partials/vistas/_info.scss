@@ -113,3 +113,24 @@
     font-size: 14px;
     }
 }
+
+
+.animacionLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.animacionLogo img{
+    width: 25%; 
+    animation: rotateLogo 2s infinite linear; 
+}
+
+@keyframes rotateLogo {
+    0% {
+      transform: rotate(0deg); 
+    }
+    100% {
+      transform: rotate(360deg); 
+    }
+}
