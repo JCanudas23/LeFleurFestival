@@ -193,7 +193,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.info-show h1 {
+.info-show h2 {
   font-size: 14px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -226,7 +226,7 @@ header {
   justify-content: center;
   flex-direction: row;
 }
-.permitidos-no h1 {
+.permitidos-no h2 {
   font-size: 14x;
 }
 .permitidos-no ul {
@@ -238,7 +238,7 @@ header {
   flex-direction: column;
   font-size: 12px;
 }
-.tablas-permitidos h1 {
+.tablas-permitidos h2 {
   font-size: 14px;
   font-weight: bold;
 }
@@ -248,7 +248,7 @@ header {
   flex-direction: column;
   font-size: 12px;
 }
-.tablas-no-permitidos h1 {
+.tablas-no-permitidos h2 {
   font-size: 14px;
   font-weight: bold;
 }
@@ -314,7 +314,7 @@ header {
   margin: 10px;
   padding: 5px;
 }
-.seccion2-main h1 {
+.seccion2-main h2 {
   font-size: 14px;
   padding-bottom: 5px;
   margin-top: 5px;
@@ -668,7 +668,7 @@ footer {
     margin: 10px;
     padding: 5px;
   }
-  .festival-footer h1, .ayuda-footer h1, .social-footer h1 {
+  .festival-footer h2, .ayuda-footer h2, .social-footer h2 {
     font-size: 18px;
     font-weight: bold;
     margin-left: 20px;
@@ -760,7 +760,7 @@ footer {
     margin: 25px;
     padding: 10px;
   }
-  .seccion2-main h1 {
+  .seccion2-main h2 {
     font-size: 45px;
     padding-bottom: 30px;
     margin-top: 35px;
@@ -773,30 +773,6 @@ footer {
     background-color: white;
   }
   .seccion2-main img:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
-    transform: scale(1.1);
-  }
-  .seccion3-main {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px;
-    padding: 10px;
-  }
-  .seccion3-main h1 {
-    font-size: 45px;
-    padding-bottom: 30px;
-    margin-top: 35px;
-  }
-  .seccion3-main img {
-    width: 18%;
-    padding: 25px;
-    border: 5px;
-    margin: 5px;
-    background-color: white;
-  }
-  .seccion3-main img:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transform: scale(1.1);
   }
@@ -897,7 +873,7 @@ footer {
     margin: 35px;
     padding: 10px;
   }
-  .info-show h1 {
+  .info-show h2 {
     font-size: 35px;
     padding-bottom: 30px;
     margin-top: 35px;
@@ -932,7 +908,7 @@ footer {
     flex-direction: row;
     margin: 50px 140px 60px 150px;
   }
-  .permitidos-no h1 {
+  .permitidos-no h2 {
     font-size: 30px;
     padding-bottom: 30px;
     margin-top: 25px;
@@ -1097,7 +1073,7 @@ footer {
     margin: 35px;
     padding: 10px;
   }
-  .info-show h1 {
+  .info-show h2 {
     font-size: 45px;
     padding-bottom: 30px;
     margin-top: 35px;
@@ -1131,7 +1107,7 @@ footer {
     flex-direction: row;
     margin: 50px 140px 60px 150px;
   }
-  .permitidos-no h1 {
+  .permitidos-no h2 {
     font-size: 30px;
     padding-bottom: 30px;
     margin-top: 25px;
