@@ -906,10 +906,21 @@ footer {
     border: 5px;
     margin: 5px;
     background-color: white;
+    animation: swirl-in-fwd 1s ease-out both;
   }
   .seccion2-main img:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     transform: scale(1.1);
+  }
+  @keyframes swirl-in-fwd {
+    0% {
+      transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0) scale(1);
+      opacity: 1;
+    }
   }
   .main-tickets {
     display: flex;
